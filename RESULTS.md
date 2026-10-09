@@ -1,4 +1,4 @@
-# CBIO064T results (PREREG.md and src/run064t.py committed together at 18c4447 before any scoring; analysis script src/analyze064t.py committed before outcomes were aggregated). Raw per-stack: results/cache/*.json, aggregates results/results064t.json, log results/run064t.log.
+# CBIO064T results (PREREG.md and src/run064t.py committed together at 18c4447; in the commit chain they precede the results commits (dates are author-set, not independently timestamped); analysis script src/analyze064t.py committed before outcomes were aggregated). Raw per-stack: results/cache/*.json, aggregates results/results064t.json, log results/run064t.log.
 Scope (from PREREG): pretrained Cellpose 2.3.2 'nuclei' vs manual nucleus annotation on BBBC050 mouse-embryo nuclei, 44 test stacks (4 embryos x 11 timepoints, 437 annotated nuclei), CPU. NOT the students' cells, filtering or 3D rendering. Confidence intervals are bootstrap over stacks, which are not independent (4 embryos), so they are optimistic.
 
 ## Verdict (D2/D3 gates)
@@ -19,3 +19,6 @@ On public mouse-embryo nuclei, pretrained Cellpose 2.3.2 with the default diamet
 
 ## Limits and disclosures
 One dataset (nuclei, one organism); ground truth is manual nucleus annotation; F1 uses greedy one-to-one 3D IoU>=0.5 matching; 4 embryos. Compute disclosures: the run was interrupted once (disk full from unrelated test temp files; process killed) and resumed from the per-stack cache, which is deterministic so results are unaffected; a few stacks show long wall times (382 s, 881 s) because of CPU contention. Before the prereg commit I ran the Otsu baseline code path once on one test stack (disclosed in PREREG.md).
+
+## Canonical claim wording (after independent gate review)
+On 44 test stacks (437 nuclei, 4 embryos) of BBBC050, pretrained Cellpose nuclei at diameter 17 (3D mode, cellpose 2.3.2, builder-reported) reached instance F1 0.24 (foreground Dice median 0.688, mean 0.623) vs 0.735 for a simple Otsu+watershed baseline (rerun by the reviewer), driven by over-segmentation (about 2.5x objects), most severe on sparse stacks. Not tested: fine-tuning, larger diameters, other models. Stack CIs understate uncertainty (4 embryos). The noise-robustness result (F1 rises under noise) is unexplained and should not be interpreted. The claim is about pretrained Cellpose at the preregistered diameter 17, not about whether Cellpose can do this task in general. The reviewer did not rerun Cellpose (no install on the review machine); the Cellpose numbers are builder-reported.
