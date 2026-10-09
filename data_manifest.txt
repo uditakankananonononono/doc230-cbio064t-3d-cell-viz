@@ -1,0 +1,2 @@
+1f19b308730dccf217c4d4dcf5745ad0fcde4eeb9f9c9306b2c8abd1fe73e5d1  data/GroundTruth.zip
+29f100abbfebfb1986b8e87eac091e86d8ec27cd8194f9a1c02c805e76b6dcd8  data/Images.zip

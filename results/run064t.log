@@ -1,0 +1,978 @@
+JOB primary
+/home/sandbox/cp-venv/lib/python3.10/site-packages/torch/jit/_script.py:365: FutureWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+primary_test Emb1_t001 {'dice': 0.4307950024429399, 'f1': 0.0, 'npred': 13, 'ngt': 2, 'cnt_err': 11, 'zflip_dice': 0.15620855726949118, 'filtered': {'dice': 0.4226775189447095, 'f1': 0.0, 'npred': 11, 'ngt': 2, 'cnt_err': 9}, 'sec': 41.5}
+primary_test Emb1_t051 {'dice': 0.20804710500490678, 'f1': 0.0, 'npred': 9, 'ngt': 2, 'cnt_err': 7, 'zflip_dice': 0.0711104400996452, 'filtered': {'dice': 0.20915926179084074, 'f1': 0.0, 'npred': 7, 'ngt': 2, 'cnt_err': 5}, 'sec': 35.5}
+primary_test Emb1_t101 {'dice': 0.39668185217923435, 'f1': 0.0, 'npred': 12, 'ngt': 2, 'cnt_err': 10, 'zflip_dice': 0.14945264159923846, 'filtered': {'dice': 0.3715118700541441, 'f1': 0.0, 'npred': 7, 'ngt': 2, 'cnt_err': 5}, 'sec': 37.2}
+primary_test Emb1_t151 {'dice': 0.5629930394431555, 'f1': 0.0, 'npred': 20, 'ngt': 2, 'cnt_err': 18, 'zflip_dice': 0.29095127610208815, 'filtered': {'dice': 0.5362681937485088, 'f1': 0.0, 'npred': 10, 'ngt': 2, 'cnt_err': 8}, 'sec': 381.9}
+primary_test Emb1_t201 {'dice': 0.4651519375522721, 'f1': 0.18181818181818182, 'npred': 7, 'ngt': 4, 'cnt_err': 3, 'zflip_dice': 0.0, 'filtered': {'dice': 0.45255166596372837, 'f1': 0.25, 'npred': 4, 'ngt': 4, 'cnt_err': 0}, 'sec': 37.2}
+primary_test Emb1_t251 {'dice': 0.8186004717510952, 'f1': 0.2857142857142857, 'npred': 17, 'ngt': 4, 'cnt_err': 13, 'zflip_dice': 0.7245872177917556, 'filtered': {'dice': 0.809425006395134, 'f1': 0.46153846153846156, 'npred': 9, 'ngt': 4, 'cnt_err': 5}, 'sec': 310.9}
+primary_test Emb1_t301 {'dice': 0.8363333633336333, 'f1': 0.3157894736842105, 'npred': 30, 'ngt': 8, 'cnt_err': 22, 'zflip_dice': 0.466159661596616, 'filtered': {'dice': 0.8277244867734512, 'f1': 0.48, 'npred': 17, 'ngt': 8, 'cnt_err': 9}, 'sec': 34.4}
+primary_test Emb1_t351 {'dice': 0.7319337332190803, 'f1': 0.4, 'npred': 28, 'ngt': 12, 'cnt_err': 16, 'zflip_dice': 0.28387127487384556, 'filtered': {'dice': 0.7189630990956135, 'f1': 0.5714285714285714, 'npred': 16, 'ngt': 12, 'cnt_err': 4}, 'sec': 1078.6}
+primary_test Emb1_t401 {'dice': 0.8365129798953839, 'f1': 0.8095238095238095, 'npred': 25, 'ngt': 17, 'cnt_err': 8, 'zflip_dice': 0.2718077504752126, 'filtered': {'dice': 0.8327523217223973, 'f1': 0.9714285714285714, 'npred': 18, 'ngt': 17, 'cnt_err': 1}, 'sec': 36.1}
+primary_test Emb1_t451 {'dice': 0.7598321242947275, 'f1': 0.4155844155844156, 'npred': 49, 'ngt': 28, 'cnt_err': 21, 'zflip_dice': 0.2951721837738681, 'filtered': {'dice': 0.7508878314453755, 'f1': 0.5079365079365079, 'npred': 35, 'ngt': 28, 'cnt_err': 7}, 'sec': 880.7}
+primary_test Emb1_t501 {'dice': 0.7462454494971309, 'f1': 0.4367816091954023, 'npred': 54, 'ngt': 33, 'cnt_err': 21, 'zflip_dice': 0.32687110507805267, 'filtered': {'dice': 0.7382590562291622, 'f1': 0.5588235294117647, 'npred': 35, 'ngt': 33, 'cnt_err': 2}, 'sec': 36.6}
+JOB primary
+/home/sandbox/cp-venv/lib/python3.10/site-packages/torch/jit/_script.py:365: FutureWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+JOB primary
+/home/sandbox/cp-venv/lib/python3.10/site-packages/torch/jit/_script.py:365: FutureWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+primary_test Emb2_t001 {'dice': 0.7613306744017404, 'f1': 0.0, 'npred': 31, 'ngt': 2, 'cnt_err': 29, 'zflip_dice': 0.5075235678027556, 'filtered': {'dice': 0.7365876336587633, 'f1': 0.0, 'npred': 20, 'ngt': 2, 'cnt_err': 18}, 'sec': 47.2}
+primary_test Emb2_t051 {'dice': 0.041815203776857116, 'f1': 0.0, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'zflip_dice': 0.027941034781770884, 'filtered': {'dice': 0.028824617781672997, 'f1': 0.0, 'npred': 4, 'ngt': 2, 'cnt_err': 2}, 'sec': 40.4}
+primary_test Emb2_t101 {'dice': 0.679513785947228, 'f1': 0.0, 'npred': 22, 'ngt': 2, 'cnt_err': 20, 'zflip_dice': 0.3992489376420595, 'filtered': {'dice': 0.638127912335501, 'f1': 0.0, 'npred': 11, 'ngt': 2, 'cnt_err': 9}, 'sec': 38.5}
+primary_test Emb2_t151 {'dice': 0.6696130603409398, 'f1': 0.0, 'npred': 24, 'ngt': 2, 'cnt_err': 22, 'zflip_dice': 0.3712456029584198, 'filtered': {'dice': 0.6434018950774208, 'f1': 0.0, 'npred': 14, 'ngt': 2, 'cnt_err': 12}, 'sec': 38.7}
+primary_test Emb2_t201 {'dice': 0.8070132567658379, 'f1': 0.2222222222222222, 'npred': 14, 'ngt': 4, 'cnt_err': 10, 'zflip_dice': 0.4065000916366302, 'filtered': {'dice': 0.8005908419497785, 'f1': 0.3076923076923077, 'npred': 9, 'ngt': 4, 'cnt_err': 5}, 'sec': 2061.2}
+primary_test Emb2_t251 {'dice': 0.6817665484837011, 'f1': 0.16, 'npred': 19, 'ngt': 6, 'cnt_err': 13, 'zflip_dice': 0.18450311521118035, 'filtered': {'dice': 0.6744501198790785, 'f1': 0.21052631578947367, 'npred': 13, 'ngt': 6, 'cnt_err': 7}, 'sec': 39.9}
+primary_test Emb2_t301 {'dice': 0.8452956900170102, 'f1': 0.56, 'npred': 17, 'ngt': 8, 'cnt_err': 9, 'zflip_dice': 0.23867276382353592, 'filtered': {'dice': 0.841481547235969, 'f1': 0.7, 'npred': 12, 'ngt': 8, 'cnt_err': 4}, 'sec': 40.9}
+primary_test Emb2_t351 {'dice': 0.8295534100714739, 'f1': 0.7741935483870968, 'npred': 15, 'ngt': 16, 'cnt_err': -1, 'zflip_dice': 0.353103987235636, 'filtered': {'dice': 0.8295534100714739, 'f1': 0.7741935483870968, 'npred': 15, 'ngt': 16, 'cnt_err': -1}, 'sec': 40.2}
+primary_test Emb2_t401 {'dice': 0.7663482407831209, 'f1': 0.4225352112676056, 'npred': 47, 'ngt': 24, 'cnt_err': 23, 'zflip_dice': 0.33636994492757905, 'filtered': {'dice': 0.7552801353151616, 'f1': 0.5555555555555556, 'npred': 30, 'ngt': 24, 'cnt_err': 6}, 'sec': 40.8}
+primary_test Emb2_t451 {'dice': 0.8074364858410894, 'f1': 0.6, 'npred': 42, 'ngt': 28, 'cnt_err': 14, 'zflip_dice': 0.34999475811618347, 'filtered': {'dice': 0.8036308268915436, 'f1': 0.7241379310344828, 'npred': 30, 'ngt': 28, 'cnt_err': 2}, 'sec': 39.1}
+primary_test Emb2_t501 {'dice': 0.6848907484890748, 'f1': 0.23655913978494625, 'npred': 63, 'ngt': 30, 'cnt_err': 33, 'zflip_dice': 0.3249252839210998, 'filtered': {'dice': 0.6708562027160061, 'f1': 0.3188405797101449, 'npred': 39, 'ngt': 30, 'cnt_err': 9}, 'sec': 40.9}
+primary_test Emb3_t001 {'dice': 0.4542679479932165, 'f1': 0.0, 'npred': 22, 'ngt': 2, 'cnt_err': 20, 'zflip_dice': 0.30028264556246465, 'filtered': {'dice': 0.4187366105031556, 'f1': 0.0, 'npred': 15, 'ngt': 2, 'cnt_err': 13}, 'sec': 41.9}
+primary_test Emb3_t051 {'dice': 0.15006327969625746, 'f1': 0.0, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'zflip_dice': 0.07900922075574038, 'filtered': {'dice': 0.15049864007252947, 'f1': 0.0, 'npred': 4, 'ngt': 2, 'cnt_err': 2}, 'sec': 42.3}
+primary_test Emb3_t101 {'dice': 0.3506994999050453, 'f1': 0.0, 'npred': 9, 'ngt': 2, 'cnt_err': 7, 'zflip_dice': 0.06887383680445654, 'filtered': {'dice': 0.3519695044472681, 'f1': 0.0, 'npred': 8, 'ngt': 2, 'cnt_err': 6}, 'sec': 40.3}
+primary_test Emb3_t151 {'dice': 0.2577905721482548, 'f1': 0.0, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'zflip_dice': 0.05958978049658151, 'filtered': {'dice': 0.25010918619886446, 'f1': 0.0, 'npred': 4, 'ngt': 2, 'cnt_err': 2}, 'sec': 41.4}
+primary_test Emb3_t201 {'dice': 0.42857142857142855, 'f1': 0.0, 'npred': 15, 'ngt': 2, 'cnt_err': 13, 'zflip_dice': 0.12451737451737452, 'filtered': {'dice': 0.41931454022052034, 'f1': 0.0, 'npred': 11, 'ngt': 2, 'cnt_err': 9}, 'sec': 41.9}
+primary_test Emb3_t251 {'dice': 0.6673371888358058, 'f1': 0.07142857142857142, 'npred': 24, 'ngt': 4, 'cnt_err': 20, 'zflip_dice': 0.359495671539926, 'filtered': {'dice': 0.6522561863173217, 'f1': 0.1, 'npred': 16, 'ngt': 4, 'cnt_err': 12}, 'sec': 40.8}
+primary_test Emb3_t301 {'dice': 0.6517918440203213, 'f1': 0.07407407407407407, 'npred': 23, 'ngt': 4, 'cnt_err': 19, 'zflip_dice': 0.26527529864067007, 'filtered': {'dice': 0.6393522719341104, 'f1': 0.125, 'npred': 12, 'ngt': 4, 'cnt_err': 8}, 'sec': 41.3}
+primary_test Emb3_t351 {'dice': 0.7450043078291321, 'f1': 0.17777777777777778, 'npred': 37, 'ngt': 8, 'cnt_err': 29, 'zflip_dice': 0.29721241766487866, 'filtered': {'dice': 0.7266638285795374, 'f1': 0.27586206896551724, 'npred': 21, 'ngt': 8, 'cnt_err': 13}, 'sec': 40.0}
+primary_test Emb3_t401 {'dice': 0.8156110162845412, 'f1': 0.4864864864864865, 'npred': 27, 'ngt': 10, 'cnt_err': 17, 'zflip_dice': 0.22752225861512201, 'filtered': {'dice': 0.8074649788244055, 'f1': 0.72, 'npred': 15, 'ngt': 10, 'cnt_err': 5}, 'sec': 40.4}
+primary_test Emb3_t451 {'dice': 0.8011476495254911, 'f1': 0.7317073170731707, 'npred': 25, 'ngt': 16, 'cnt_err': 9, 'zflip_dice': 0.2984567848836222, 'filtered': {'dice': 0.7965162851737596, 'f1': 0.8333333333333334, 'npred': 20, 'ngt': 16, 'cnt_err': 4}, 'sec': 40.3}
+primary_test Emb3_t501 {'dice': 0.7315581201027921, 'f1': 0.2777777777777778, 'npred': 44, 'ngt': 28, 'cnt_err': 16, 'zflip_dice': 0.36557410648126254, 'filtered': {'dice': 0.7232441738132432, 'f1': 0.3448275862068966, 'npred': 30, 'ngt': 28, 'cnt_err': 2}, 'sec': 39.8}
+primary_test Emb4_t001 {'dice': 0.5286135693215339, 'f1': 0.0, 'npred': 10, 'ngt': 2, 'cnt_err': 8, 'zflip_dice': 0.39029826286463454, 'filtered': {'dice': 0.5231417473171374, 'f1': 0.0, 'npred': 8, 'ngt': 2, 'cnt_err': 6}, 'sec': 36.0}
+primary_test Emb4_t051 {'dice': 0.0, 'f1': 0.0, 'npred': 35, 'ngt': 1, 'cnt_err': 34, 'zflip_dice': 0.0, 'filtered': {'dice': 0.0, 'f1': 0.0, 'npred': 24, 'ngt': 1, 'cnt_err': 23}, 'sec': 35.2}
+primary_test Emb4_t101 {'dice': 0.6642035078778613, 'f1': 0.0, 'npred': 16, 'ngt': 2, 'cnt_err': 14, 'zflip_dice': 0.06803414447700344, 'filtered': {'dice': 0.6524238524238524, 'f1': 0.0, 'npred': 10, 'ngt': 2, 'cnt_err': 8}, 'sec': 34.8}
+primary_test Emb4_t151 {'dice': 0.6646709184780251, 'f1': 0.125, 'npred': 14, 'ngt': 2, 'cnt_err': 12, 'zflip_dice': 0.010499370905462276, 'filtered': {'dice': 0.6560148712047447, 'f1': 0.2222222222222222, 'npred': 7, 'ngt': 2, 'cnt_err': 5}, 'sec': 35.6}
+primary_test Emb4_t201 {'dice': 0.4826421248835042, 'f1': 0.0, 'npred': 15, 'ngt': 2, 'cnt_err': 13, 'zflip_dice': 0.016425908667287978, 'filtered': {'dice': 0.45982063312941734, 'f1': 0.0, 'npred': 9, 'ngt': 2, 'cnt_err': 7}, 'sec': 38.6}
+primary_test Emb4_t251 {'dice': 0.6909740960604426, 'f1': 0.17391304347826086, 'npred': 19, 'ngt': 4, 'cnt_err': 15, 'zflip_dice': 0.1571775499190502, 'filtered': {'dice': 0.6796872332434186, 'f1': 0.26666666666666666, 'npred': 11, 'ngt': 4, 'cnt_err': 7}, 'sec': 37.3}
+primary_test Emb4_t301 {'dice': 0.7733132007941168, 'f1': 0.37037037037037035, 'npred': 21, 'ngt': 6, 'cnt_err': 15, 'zflip_dice': 0.2912507339988256, 'filtered': {'dice': 0.7581643664451638, 'f1': 0.6666666666666666, 'npred': 9, 'ngt': 6, 'cnt_err': 3}, 'sec': 39.5}
+primary_test Emb4_t351 {'dice': 0.8402930099739271, 'f1': 0.64, 'npred': 15, 'ngt': 10, 'cnt_err': 5, 'zflip_dice': 0.32429747961759714, 'filtered': {'dice': 0.8370128383861504, 'f1': 0.7619047619047619, 'npred': 11, 'ngt': 10, 'cnt_err': 1}, 'sec': 37.8}
+primary_test Emb4_t401 {'dice': 0.8320390000566862, 'f1': 0.7619047619047619, 'npred': 24, 'ngt': 18, 'cnt_err': 6, 'zflip_dice': 0.37809647979139505, 'filtered': {'dice': 0.8310762853817109, 'f1': 0.8205128205128205, 'npred': 21, 'ngt': 18, 'cnt_err': 3}, 'sec': 38.9}
+primary_test Emb4_t451 {'dice': 0.7938682243999569, 'f1': 0.4931506849315068, 'npred': 44, 'ngt': 29, 'cnt_err': 15, 'zflip_dice': 0.3919922273267042, 'filtered': {'dice': 0.7884390273336149, 'f1': 0.5714285714285714, 'npred': 34, 'ngt': 29, 'cnt_err': 5}, 'sec': 37.3}
+primary_test Emb4_t501 {'dice': 0.738503992219131, 'f1': 0.34, 'npred': 57, 'ngt': 43, 'cnt_err': 14, 'zflip_dice': 0.41102892945194636, 'filtered': {'dice': 0.7304474852493067, 'f1': 0.4, 'npred': 42, 'ngt': 43, 'cnt_err': -1}, 'sec': 39.1}
+JOB baseline
+baseline_test Emb1_t001 {'dice': 0.773107250844845, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.2}
+baseline_test Emb1_t051 {'dice': 0.6567304464585432, 'f1': 0.5, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb1_t101 {'dice': 0.7380952380952381, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb1_t151 {'dice': 0.7506567547929126, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb1_t201 {'dice': 0.5225302672111183, 'f1': 0.4444444444444444, 'npred': 5, 'ngt': 4, 'cnt_err': 1, 'sec': 0.1}
+baseline_test Emb1_t251 {'dice': 0.7519145256916996, 'f1': 1.0, 'npred': 4, 'ngt': 4, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb1_t301 {'dice': 0.7454458654740069, 'f1': 0.5882352941176471, 'npred': 9, 'ngt': 8, 'cnt_err': 1, 'sec': 0.1}
+baseline_test Emb1_t351 {'dice': 0.7002286004572009, 'f1': 0.46153846153846156, 'npred': 14, 'ngt': 12, 'cnt_err': 2, 'sec': 0.1}
+baseline_test Emb1_t401 {'dice': 0.8260998182817056, 'f1': 0.8421052631578947, 'npred': 21, 'ngt': 17, 'cnt_err': 4, 'sec': 0.1}
+baseline_test Emb1_t451 {'dice': 0.7938965618984727, 'f1': 0.6, 'npred': 32, 'ngt': 28, 'cnt_err': 4, 'sec': 0.1}
+baseline_test Emb1_t501 {'dice': 0.8506144520904668, 'f1': 0.7741935483870968, 'npred': 29, 'ngt': 33, 'cnt_err': -4, 'sec': 0.1}
+baseline_test Emb2_t001 {'dice': 0.7628799409621327, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb2_t051 {'dice': 0.6466478123440359, 'f1': 0.5, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb2_t101 {'dice': 0.7467025293539544, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb2_t151 {'dice': 0.7465535524920467, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb2_t201 {'dice': 0.7314801749682517, 'f1': 0.75, 'npred': 4, 'ngt': 4, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb2_t251 {'dice': 0.6233289436928848, 'f1': 0.5714285714285714, 'npred': 8, 'ngt': 6, 'cnt_err': 2, 'sec': 0.1}
+baseline_test Emb2_t301 {'dice': 0.7681124880838894, 'f1': 0.875, 'npred': 8, 'ngt': 8, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb2_t351 {'dice': 0.8299253489126907, 'f1': 0.7741935483870968, 'npred': 15, 'ngt': 16, 'cnt_err': -1, 'sec': 0.1}
+baseline_test Emb2_t401 {'dice': 0.8051130048165988, 'f1': 0.7346938775510204, 'npred': 25, 'ngt': 24, 'cnt_err': 1, 'sec': 0.1}
+baseline_test Emb2_t451 {'dice': 0.8598336839995993, 'f1': 0.8363636363636363, 'npred': 27, 'ngt': 28, 'cnt_err': -1, 'sec': 0.1}
+baseline_test Emb2_t501 {'dice': 0.8113405073769294, 'f1': 0.7741935483870968, 'npred': 32, 'ngt': 30, 'cnt_err': 2, 'sec': 0.1}
+baseline_test Emb3_t001 {'dice': 0.7564049681470278, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb3_t051 {'dice': 0.7276248998129843, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb3_t101 {'dice': 0.7358696275893728, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb3_t151 {'dice': 0.7474567196144922, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb3_t201 {'dice': 0.7532253919300951, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb3_t251 {'dice': 0.6943835452624866, 'f1': 0.6666666666666666, 'npred': 5, 'ngt': 4, 'cnt_err': 1, 'sec': 0.1}
+baseline_test Emb3_t301 {'dice': 0.6730101073910297, 'f1': 0.75, 'npred': 4, 'ngt': 4, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb3_t351 {'dice': 0.6526880025224657, 'f1': 0.625, 'npred': 8, 'ngt': 8, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb3_t401 {'dice': 0.7555294578195342, 'f1': 0.6956521739130435, 'npred': 13, 'ngt': 10, 'cnt_err': 3, 'sec': 0.1}
+baseline_test Emb3_t451 {'dice': 0.7569899344943282, 'f1': 0.8235294117647058, 'npred': 18, 'ngt': 16, 'cnt_err': 2, 'sec': 0.1}
+baseline_test Emb3_t501 {'dice': 0.8114229156963204, 'f1': 0.8070175438596491, 'npred': 29, 'ngt': 28, 'cnt_err': 1, 'sec': 0.1}
+baseline_test Emb4_t001 {'dice': 0.7802018152094256, 'f1': 0.6666666666666666, 'npred': 1, 'ngt': 2, 'cnt_err': -1, 'sec': 0.1}
+baseline_test Emb4_t051 {'dice': 0.4146827114535538, 'f1': 0.0, 'npred': 3, 'ngt': 1, 'cnt_err': 2, 'sec': 0.1}
+baseline_test Emb4_t101 {'dice': 0.704738278342843, 'f1': 0.5, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb4_t151 {'dice': 0.6810266733769502, 'f1': 0.5, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb4_t201 {'dice': 0.6420937084753596, 'f1': 0.5, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb4_t251 {'dice': 0.6171074577078866, 'f1': 0.5, 'npred': 4, 'ngt': 4, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb4_t301 {'dice': 0.6706643522171375, 'f1': 0.6666666666666666, 'npred': 6, 'ngt': 6, 'cnt_err': 0, 'sec': 0.1}
+baseline_test Emb4_t351 {'dice': 0.7696387582733493, 'f1': 0.6666666666666666, 'npred': 11, 'ngt': 10, 'cnt_err': 1, 'sec': 0.1}
+baseline_test Emb4_t401 {'dice': 0.7788603754021621, 'f1': 0.7368421052631579, 'npred': 20, 'ngt': 18, 'cnt_err': 2, 'sec': 0.1}
+baseline_test Emb4_t451 {'dice': 0.815541277730634, 'f1': 0.6037735849056604, 'npred': 24, 'ngt': 29, 'cnt_err': -5, 'sec': 0.1}
+baseline_test Emb4_t501 {'dice': 0.8611586286926163, 'f1': 0.6216216216216216, 'npred': 31, 'ngt': 43, 'cnt_err': -12, 'sec': 0.1}
+JOB stitch_d8
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:01<01:37,  1.99s/it]100%|██████████| 50/50 [00:01<00:00, 25.07it/s]
+stitch_d8_test Emb1_t001 {'dice': 0.3200511399957383, 'f1': 0.05, 'npred': 38, 'ngt': 2, 'cnt_err': 36, 'sec': 80.7}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 16245.66it/s]
+stitch_d8_test Emb1_t051 {'dice': 0.039923954372623575, 'f1': 0.0, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 77.1}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11955.72it/s]
+stitch_d8_test Emb1_t101 {'dice': 0.48796634714847253, 'f1': 0.0, 'npred': 10, 'ngt': 2, 'cnt_err': 8, 'sec': 77.7}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13191.29it/s]
+stitch_d8_test Emb1_t151 {'dice': 0.4364594894561598, 'f1': 0.0, 'npred': 12, 'ngt': 2, 'cnt_err': 10, 'sec': 79.0}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12463.02it/s]
+stitch_d8_test Emb1_t201 {'dice': 0.26926829268292685, 'f1': 0.0, 'npred': 11, 'ngt': 4, 'cnt_err': 7, 'sec': 91.9}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11981.67it/s]
+stitch_d8_test Emb1_t251 {'dice': 0.39673205193985084, 'f1': 0.0, 'npred': 18, 'ngt': 4, 'cnt_err': 14, 'sec': 76.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15775.18it/s]
+stitch_d8_test Emb1_t301 {'dice': 0.44527378786928434, 'f1': 0.0, 'npred': 24, 'ngt': 8, 'cnt_err': 16, 'sec': 74.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12491.97it/s]
+stitch_d8_test Emb1_t351 {'dice': 0.5278712025141975, 'f1': 0.14285714285714285, 'npred': 44, 'ngt': 12, 'cnt_err': 32, 'sec': 77.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12628.88it/s]
+stitch_d8_test Emb1_t401 {'dice': 0.6689443883034182, 'f1': 0.32142857142857145, 'npred': 39, 'ngt': 17, 'cnt_err': 22, 'sec': 80.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11058.60it/s]
+stitch_d8_test Emb1_t451 {'dice': 0.5743811820284435, 'f1': 0.1518987341772152, 'npred': 51, 'ngt': 28, 'cnt_err': 23, 'sec': 78.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13530.01it/s]
+stitch_d8_test Emb1_t501 {'dice': 0.5408411337399736, 'f1': 0.08888888888888889, 'npred': 57, 'ngt': 33, 'cnt_err': 24, 'sec': 75.2}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12587.19it/s]
+stitch_d8_test Emb2_t001 {'dice': 0.21095908010535105, 'f1': 0.0, 'npred': 18, 'ngt': 2, 'cnt_err': 16, 'sec': 1391.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11871.12it/s]
+stitch_d8_test Emb2_t051 {'dice': 0.09842730287792875, 'f1': 0.0, 'npred': 10, 'ngt': 2, 'cnt_err': 8, 'sec': 75.1}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13966.12it/s]
+stitch_d8_test Emb2_t101 {'dice': 0.6924181963288109, 'f1': 0.5714285714285714, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 77.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14188.16it/s]
+stitch_d8_test Emb2_t151 {'dice': 0.5403424320332586, 'f1': 0.0, 'npred': 12, 'ngt': 2, 'cnt_err': 10, 'sec': 77.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10876.22it/s]
+stitch_d8_test Emb2_t201 {'dice': 0.4084684606355693, 'f1': 0.09090909090909091, 'npred': 18, 'ngt': 4, 'cnt_err': 14, 'sec': 75.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14241.15it/s]
+stitch_d8_test Emb2_t251 {'dice': 0.36778611020541246, 'f1': 0.0, 'npred': 19, 'ngt': 6, 'cnt_err': 13, 'sec': 74.0}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15382.91it/s]
+stitch_d8_test Emb2_t301 {'dice': 0.6094725567543562, 'f1': 0.16666666666666666, 'npred': 28, 'ngt': 8, 'cnt_err': 20, 'sec': 75.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12090.82it/s]
+stitch_d8_test Emb2_t351 {'dice': 0.6694113719817514, 'f1': 0.46511627906976744, 'npred': 27, 'ngt': 16, 'cnt_err': 11, 'sec': 76.6}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10836.31it/s]
+stitch_d8_test Emb2_t401 {'dice': 0.5960814756062575, 'f1': 0.23529411764705882, 'npred': 44, 'ngt': 24, 'cnt_err': 20, 'sec': 72.8}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11785.73it/s]
+stitch_d8_test Emb2_t451 {'dice': 0.6131227954144621, 'f1': 0.2631578947368421, 'npred': 48, 'ngt': 28, 'cnt_err': 20, 'sec': 74.1}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10327.75it/s]
+stitch_d8_test Emb2_t501 {'dice': 0.46757979190973165, 'f1': 0.0, 'npred': 64, 'ngt': 30, 'cnt_err': 34, 'sec': 77.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10308.96it/s]
+stitch_d8_test Emb3_t001 {'dice': 0.04052428291015007, 'f1': 0.0, 'npred': 58, 'ngt': 2, 'cnt_err': 56, 'sec': 72.5}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11355.60it/s]
+stitch_d8_test Emb3_t051 {'dice': 0.18473188341991723, 'f1': 0.0, 'npred': 23, 'ngt': 2, 'cnt_err': 21, 'sec': 76.4}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14105.14it/s]
+stitch_d8_test Emb3_t101 {'dice': 0.2868000620443617, 'f1': 0.0, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 75.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13521.29it/s]
+stitch_d8_test Emb3_t151 {'dice': 0.4338385618611209, 'f1': 0.0, 'npred': 25, 'ngt': 2, 'cnt_err': 23, 'sec': 70.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11744.80it/s]
+stitch_d8_test Emb3_t201 {'dice': 0.3921441534871662, 'f1': 0.0, 'npred': 14, 'ngt': 2, 'cnt_err': 12, 'sec': 71.3}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10751.32it/s]
+stitch_d8_test Emb3_t251 {'dice': 0.4044482626956854, 'f1': 0.0, 'npred': 21, 'ngt': 4, 'cnt_err': 17, 'sec': 75.5}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10299.85it/s]
+stitch_d8_test Emb3_t301 {'dice': 0.37190425679103445, 'f1': 0.0, 'npred': 25, 'ngt': 4, 'cnt_err': 21, 'sec': 74.4}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9849.48it/s]
+stitch_d8_test Emb3_t351 {'dice': 0.5376344086021505, 'f1': 0.044444444444444446, 'npred': 37, 'ngt': 8, 'cnt_err': 29, 'sec': 73.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10132.64it/s]
+stitch_d8_test Emb3_t401 {'dice': 0.5802714155447085, 'f1': 0.14035087719298245, 'npred': 47, 'ngt': 10, 'cnt_err': 37, 'sec': 73.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12522.55it/s]
+stitch_d8_test Emb3_t451 {'dice': 0.58292, 'f1': 0.1694915254237288, 'npred': 43, 'ngt': 16, 'cnt_err': 27, 'sec': 74.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9292.59it/s]
+stitch_d8_test Emb3_t501 {'dice': 0.5068050201867041, 'f1': 0.043010752688172046, 'npred': 65, 'ngt': 28, 'cnt_err': 37, 'sec': 73.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11653.43it/s]
+stitch_d8_test Emb4_t001 {'dice': 0.031625232538474546, 'f1': 0.0, 'npred': 24, 'ngt': 2, 'cnt_err': 22, 'sec': 78.2}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 23093.84it/s]
+stitch_d8_test Emb4_t051 {'dice': 0.00505902192242833, 'f1': 0.0, 'npred': 2, 'ngt': 1, 'cnt_err': 1, 'sec': 77.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13551.00it/s]
+stitch_d8_test Emb4_t101 {'dice': 0.4476693562431068, 'f1': 0.0, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 75.0}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 16616.37it/s]
+stitch_d8_test Emb4_t151 {'dice': 0.5285372236761512, 'f1': 0.0, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 73.0}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15828.76it/s]
+stitch_d8_test Emb4_t201 {'dice': 0.27634024303073623, 'f1': 0.0, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 77.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14495.11it/s]
+stitch_d8_test Emb4_t251 {'dice': 0.3007090830157735, 'f1': 0.0, 'npred': 9, 'ngt': 4, 'cnt_err': 5, 'sec': 77.1}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14037.16it/s]
+stitch_d8_test Emb4_t301 {'dice': 0.45134113411341137, 'f1': 0.0, 'npred': 29, 'ngt': 6, 'cnt_err': 23, 'sec': 74.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15054.93it/s]
+stitch_d8_test Emb4_t351 {'dice': 0.5603363263611356, 'f1': 0.2857142857142857, 'npred': 18, 'ngt': 10, 'cnt_err': 8, 'sec': 76.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10153.73it/s]
+stitch_d8_test Emb4_t401 {'dice': 0.6853515625, 'f1': 0.4583333333333333, 'npred': 30, 'ngt': 18, 'cnt_err': 12, 'sec': 79.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 8302.26it/s]
+stitch_d8_test Emb4_t451 {'dice': 0.6771309518993487, 'f1': 0.4, 'npred': 46, 'ngt': 29, 'cnt_err': 17, 'sec': 78.2}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12742.45it/s]
+stitch_d8_test Emb4_t501 {'dice': 0.6296142783576372, 'f1': 0.21052631578947367, 'npred': 71, 'ngt': 43, 'cnt_err': 28, 'sec': 76.8}
+JOB stitch_d12
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11839.62it/s]
+stitch_d12_test Emb1_t001 {'dice': 0.5325969244097899, 'f1': 0.047619047619047616, 'npred': 40, 'ngt': 2, 'cnt_err': 38, 'sec': 11.5}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14368.98it/s]
+stitch_d12_test Emb1_t051 {'dice': 0.38232044198895027, 'f1': 0.0, 'npred': 12, 'ngt': 2, 'cnt_err': 10, 'sec': 9.6}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14655.15it/s]
+stitch_d12_test Emb1_t101 {'dice': 0.7123000872346612, 'f1': 0.2, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 9.6}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13605.50it/s]
+stitch_d12_test Emb1_t151 {'dice': 0.6878994930570862, 'f1': 0.36363636363636365, 'npred': 9, 'ngt': 2, 'cnt_err': 7, 'sec': 11.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10462.74it/s]
+stitch_d12_test Emb1_t201 {'dice': 0.5122432105832221, 'f1': 0.0, 'npred': 19, 'ngt': 4, 'cnt_err': 15, 'sec': 11.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9938.17it/s]
+stitch_d12_test Emb1_t251 {'dice': 0.7418035083786358, 'f1': 0.23529411764705882, 'npred': 13, 'ngt': 4, 'cnt_err': 9, 'sec': 12.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13733.80it/s]
+stitch_d12_test Emb1_t301 {'dice': 0.7394583398995925, 'f1': 0.27586206896551724, 'npred': 21, 'ngt': 8, 'cnt_err': 13, 'sec': 11.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9301.25it/s]
+stitch_d12_test Emb1_t351 {'dice': 0.6897142728277293, 'f1': 0.2222222222222222, 'npred': 51, 'ngt': 12, 'cnt_err': 39, 'sec': 10.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9805.27it/s]
+stitch_d12_test Emb1_t401 {'dice': 0.8278615911464875, 'f1': 0.463768115942029, 'npred': 52, 'ngt': 17, 'cnt_err': 35, 'sec': 11.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12468.95it/s]
+stitch_d12_test Emb1_t451 {'dice': 0.7261278473689168, 'f1': 0.29473684210526313, 'npred': 67, 'ngt': 28, 'cnt_err': 39, 'sec': 10.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9287.24it/s]
+stitch_d12_test Emb1_t501 {'dice': 0.7077276672738609, 'f1': 0.32, 'npred': 67, 'ngt': 33, 'cnt_err': 34, 'sec': 11.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14378.83it/s]
+stitch_d12_test Emb2_t001 {'dice': 0.5440941739824421, 'f1': 0.08695652173913043, 'npred': 21, 'ngt': 2, 'cnt_err': 19, 'sec': 10.5}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11592.88it/s]
+stitch_d12_test Emb2_t051 {'dice': 0.3425272610647851, 'f1': 0.0, 'npred': 10, 'ngt': 2, 'cnt_err': 8, 'sec': 10.3}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12968.60it/s]
+stitch_d12_test Emb2_t101 {'dice': 0.8283986562150056, 'f1': 0.36363636363636365, 'npred': 9, 'ngt': 2, 'cnt_err': 7, 'sec': 10.6}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12220.45it/s]
+stitch_d12_test Emb2_t151 {'dice': 0.7748318163830629, 'f1': 0.36363636363636365, 'npred': 9, 'ngt': 2, 'cnt_err': 7, 'sec': 11.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10331.31it/s]
+stitch_d12_test Emb2_t201 {'dice': 0.7817271063919133, 'f1': 0.2857142857142857, 'npred': 17, 'ngt': 4, 'cnt_err': 13, 'sec': 11.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11443.59it/s]
+stitch_d12_test Emb2_t251 {'dice': 0.5921729459196441, 'f1': 0.05405405405405406, 'npred': 31, 'ngt': 6, 'cnt_err': 25, 'sec': 10.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12326.76it/s]
+stitch_d12_test Emb2_t301 {'dice': 0.7733692259675405, 'f1': 0.24561403508771928, 'npred': 49, 'ngt': 8, 'cnt_err': 41, 'sec': 11.2}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10515.20it/s]
+stitch_d12_test Emb2_t351 {'dice': 0.8265463282405126, 'f1': 0.4489795918367347, 'npred': 33, 'ngt': 16, 'cnt_err': 17, 'sec': 11.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10400.48it/s]
+stitch_d12_test Emb2_t401 {'dice': 0.7236111311473045, 'f1': 0.28888888888888886, 'npred': 66, 'ngt': 24, 'cnt_err': 42, 'sec': 10.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11642.44it/s]
+stitch_d12_test Emb2_t451 {'dice': 0.7950199598597296, 'f1': 0.3617021276595745, 'npred': 66, 'ngt': 28, 'cnt_err': 38, 'sec': 10.7}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9973.61it/s]
+stitch_d12_test Emb2_t501 {'dice': 0.6084788029925187, 'f1': 0.09090909090909091, 'npred': 80, 'ngt': 30, 'cnt_err': 50, 'sec': 11.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12906.35it/s]
+stitch_d12_test Emb3_t001 {'dice': 0.27290285535313463, 'f1': 0.0, 'npred': 57, 'ngt': 2, 'cnt_err': 55, 'sec': 11.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10410.80it/s]
+stitch_d12_test Emb3_t051 {'dice': 0.6119214838825859, 'f1': 0.0, 'npred': 28, 'ngt': 2, 'cnt_err': 26, 'sec': 12.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10863.82it/s]
+stitch_d12_test Emb3_t101 {'dice': 0.5043103448275862, 'f1': 0.0, 'npred': 12, 'ngt': 2, 'cnt_err': 10, 'sec': 11.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13062.30it/s]
+stitch_d12_test Emb3_t151 {'dice': 0.5939756036843415, 'f1': 0.0, 'npred': 18, 'ngt': 2, 'cnt_err': 16, 'sec': 11.4}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13213.74it/s]
+stitch_d12_test Emb3_t201 {'dice': 0.5869052721817403, 'f1': 0.0, 'npred': 17, 'ngt': 2, 'cnt_err': 15, 'sec': 11.4}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11709.39it/s]
+stitch_d12_test Emb3_t251 {'dice': 0.5723053020003884, 'f1': 0.12903225806451613, 'npred': 27, 'ngt': 4, 'cnt_err': 23, 'sec': 10.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10739.76it/s]
+stitch_d12_test Emb3_t301 {'dice': 0.5993305195750255, 'f1': 0.12121212121212122, 'npred': 29, 'ngt': 4, 'cnt_err': 25, 'sec': 11.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9404.27it/s]
+stitch_d12_test Emb3_t351 {'dice': 0.7114858705560619, 'f1': 0.13333333333333333, 'npred': 52, 'ngt': 8, 'cnt_err': 44, 'sec': 11.3}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9909.05it/s]
+stitch_d12_test Emb3_t401 {'dice': 0.7766247022796869, 'f1': 0.3333333333333333, 'npred': 38, 'ngt': 10, 'cnt_err': 28, 'sec': 10.9}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12328.94it/s]
+stitch_d12_test Emb3_t451 {'dice': 0.7865103673888292, 'f1': 0.4406779661016949, 'npred': 43, 'ngt': 16, 'cnt_err': 27, 'sec': 12.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 8915.70it/s]
+stitch_d12_test Emb3_t501 {'dice': 0.7082550457603491, 'f1': 0.3146067415730337, 'npred': 61, 'ngt': 28, 'cnt_err': 33, 'sec': 11.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10773.41it/s]
+stitch_d12_test Emb4_t001 {'dice': 0.3741951934723019, 'f1': 0.0, 'npred': 37, 'ngt': 2, 'cnt_err': 35, 'sec': 10.2}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 23518.58it/s]
+stitch_d12_test Emb4_t051 {'dice': 0.0, 'f1': 0.0, 'npred': 4, 'ngt': 1, 'cnt_err': 3, 'sec': 11.1}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15586.41it/s]
+stitch_d12_test Emb4_t101 {'dice': 0.7326457399103139, 'f1': 0.2857142857142857, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 9.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13148.29it/s]
+stitch_d12_test Emb4_t151 {'dice': 0.7382076552830621, 'f1': 0.4444444444444444, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 10.7}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12999.95it/s]
+stitch_d12_test Emb4_t201 {'dice': 0.4281207751239297, 'f1': 0.0, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 10.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13941.98it/s]
+stitch_d12_test Emb4_t251 {'dice': 0.6696347192035336, 'f1': 0.0, 'npred': 13, 'ngt': 4, 'cnt_err': 9, 'sec': 9.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11004.05it/s]
+stitch_d12_test Emb4_t301 {'dice': 0.6976329923618796, 'f1': 0.21428571428571427, 'npred': 22, 'ngt': 6, 'cnt_err': 16, 'sec': 10.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10930.64it/s]
+stitch_d12_test Emb4_t351 {'dice': 0.7850232746407609, 'f1': 0.25806451612903225, 'npred': 21, 'ngt': 10, 'cnt_err': 11, 'sec': 10.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13466.59it/s]
+stitch_d12_test Emb4_t401 {'dice': 0.8135086505190311, 'f1': 0.7555555555555555, 'npred': 27, 'ngt': 18, 'cnt_err': 9, 'sec': 11.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10660.05it/s]
+stitch_d12_test Emb4_t451 {'dice': 0.7910280804935709, 'f1': 0.37209302325581395, 'npred': 57, 'ngt': 29, 'cnt_err': 28, 'sec': 11.7}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10163.57it/s]
+stitch_d12_test Emb4_t501 {'dice': 0.7569200012760663, 'f1': 0.3050847457627119, 'npred': 75, 'ngt': 43, 'cnt_err': 32, 'sec': 11.9}
+JOB stitch_d17
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12503.89it/s]
+stitch_d17_test Emb1_t001 {'dice': 0.777485967351563, 'f1': 0.4, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 6.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 16050.45it/s]
+stitch_d17_test Emb1_t051 {'dice': 0.5653224307749489, 'f1': 0.0, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 6.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13197.11it/s]
+stitch_d17_test Emb1_t101 {'dice': 0.8250658027940879, 'f1': 0.5, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 5.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12928.62it/s]
+stitch_d17_test Emb1_t151 {'dice': 0.7747054580427988, 'f1': 0.5714285714285714, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 7.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14487.10it/s]
+stitch_d17_test Emb1_t201 {'dice': 0.5247143787367549, 'f1': 0.0, 'npred': 11, 'ngt': 4, 'cnt_err': 7, 'sec': 7.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13182.17it/s]
+stitch_d17_test Emb1_t251 {'dice': 0.7829643280906818, 'f1': 0.6666666666666666, 'npred': 5, 'ngt': 4, 'cnt_err': 1, 'sec': 6.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11111.33it/s]
+stitch_d17_test Emb1_t301 {'dice': 0.7737744572108538, 'f1': 0.3333333333333333, 'npred': 10, 'ngt': 8, 'cnt_err': 2, 'sec': 7.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13586.11it/s]
+stitch_d17_test Emb1_t351 {'dice': 0.6954827125621319, 'f1': 0.45161290322580644, 'npred': 19, 'ngt': 12, 'cnt_err': 7, 'sec': 7.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13367.87it/s]
+stitch_d17_test Emb1_t401 {'dice': 0.8529789864029667, 'f1': 0.5128205128205128, 'npred': 22, 'ngt': 17, 'cnt_err': 5, 'sec': 6.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13147.46it/s]
+stitch_d17_test Emb1_t451 {'dice': 0.7449354817142475, 'f1': 0.33766233766233766, 'npred': 49, 'ngt': 28, 'cnt_err': 21, 'sec': 5.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10436.71it/s]
+stitch_d17_test Emb1_t501 {'dice': 0.727585597265602, 'f1': 0.3409090909090909, 'npred': 55, 'ngt': 33, 'cnt_err': 22, 'sec': 6.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 16073.83it/s]
+stitch_d17_test Emb2_t001 {'dice': 0.7234081623284212, 'f1': 0.3333333333333333, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 7.0}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 17369.16it/s]
+stitch_d17_test Emb2_t051 {'dice': 0.507653644048435, 'f1': 0.0, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 6.9}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 16862.20it/s]
+stitch_d17_test Emb2_t101 {'dice': 0.7950485508857758, 'f1': 0.5, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 7.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12395.98it/s]
+stitch_d17_test Emb2_t151 {'dice': 0.8131981187536743, 'f1': 0.6666666666666666, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 7.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12124.37it/s]
+stitch_d17_test Emb2_t201 {'dice': 0.7716460513796385, 'f1': 0.6666666666666666, 'npred': 8, 'ngt': 4, 'cnt_err': 4, 'sec': 7.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13221.23it/s]
+stitch_d17_test Emb2_t251 {'dice': 0.5958571255011542, 'f1': 0.09090909090909091, 'npred': 16, 'ngt': 6, 'cnt_err': 10, 'sec': 6.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13961.47it/s]
+stitch_d17_test Emb2_t301 {'dice': 0.7955054502015828, 'f1': 0.4444444444444444, 'npred': 19, 'ngt': 8, 'cnt_err': 11, 'sec': 6.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12214.05it/s]
+stitch_d17_test Emb2_t351 {'dice': 0.8442819537876572, 'f1': 0.5555555555555556, 'npred': 20, 'ngt': 16, 'cnt_err': 4, 'sec': 7.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10484.19it/s]
+stitch_d17_test Emb2_t401 {'dice': 0.7326535198606663, 'f1': 0.3225806451612903, 'npred': 38, 'ngt': 24, 'cnt_err': 14, 'sec': 7.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12422.41it/s]
+stitch_d17_test Emb2_t451 {'dice': 0.817380527569739, 'f1': 0.4657534246575342, 'npred': 45, 'ngt': 28, 'cnt_err': 17, 'sec': 7.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13516.06it/s]
+stitch_d17_test Emb2_t501 {'dice': 0.6256535147512342, 'f1': 0.13793103448275862, 'npred': 57, 'ngt': 30, 'cnt_err': 27, 'sec': 6.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11038.22it/s]
+stitch_d17_test Emb3_t001 {'dice': 0.5582098578772301, 'f1': 0.0, 'npred': 9, 'ngt': 2, 'cnt_err': 7, 'sec': 7.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11582.64it/s]
+stitch_d17_test Emb3_t051 {'dice': 0.7254912693634025, 'f1': 0.16666666666666666, 'npred': 10, 'ngt': 2, 'cnt_err': 8, 'sec': 7.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13067.18it/s]
+stitch_d17_test Emb3_t101 {'dice': 0.6138217800936892, 'f1': 0.0, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 7.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15066.83it/s]
+stitch_d17_test Emb3_t151 {'dice': 0.6996736184101344, 'f1': 0.0, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 8.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14708.60it/s]
+stitch_d17_test Emb3_t201 {'dice': 0.6748914148415118, 'f1': 0.25, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 7.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13928.09it/s]
+stitch_d17_test Emb3_t251 {'dice': 0.6545640828610765, 'f1': 0.2857142857142857, 'npred': 10, 'ngt': 4, 'cnt_err': 6, 'sec': 6.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11836.95it/s]
+stitch_d17_test Emb3_t301 {'dice': 0.6440399526876068, 'f1': 0.23529411764705882, 'npred': 13, 'ngt': 4, 'cnt_err': 9, 'sec': 7.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13143.34it/s]
+stitch_d17_test Emb3_t351 {'dice': 0.7265605080777878, 'f1': 0.35714285714285715, 'npred': 20, 'ngt': 8, 'cnt_err': 12, 'sec': 7.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10362.96it/s]
+stitch_d17_test Emb3_t401 {'dice': 0.8114968851281852, 'f1': 0.6666666666666666, 'npred': 17, 'ngt': 10, 'cnt_err': 7, 'sec': 7.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10323.17it/s]
+stitch_d17_test Emb3_t451 {'dice': 0.8152310536044363, 'f1': 0.6666666666666666, 'npred': 20, 'ngt': 16, 'cnt_err': 4, 'sec': 8.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10748.01it/s]
+stitch_d17_test Emb3_t501 {'dice': 0.7627473670333533, 'f1': 0.4, 'npred': 32, 'ngt': 28, 'cnt_err': 4, 'sec': 7.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 16123.26it/s]
+stitch_d17_test Emb4_t001 {'dice': 0.6839764394758986, 'f1': 0.3333333333333333, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 6.5}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 21836.23it/s]
+stitch_d17_test Emb4_t051 {'dice': 0.0, 'f1': 0.0, 'npred': 0, 'ngt': 1, 'cnt_err': -1, 'sec': 7.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11816.27it/s]
+stitch_d17_test Emb4_t101 {'dice': 0.773367568916943, 'f1': 0.5714285714285714, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 6.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14568.61it/s]
+stitch_d17_test Emb4_t151 {'dice': 0.7374005305039788, 'f1': 0.5714285714285714, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 6.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15650.39it/s]
+stitch_d17_test Emb4_t201 {'dice': 0.4939106901217862, 'f1': 0.25, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 6.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12042.22it/s]
+stitch_d17_test Emb4_t251 {'dice': 0.7120328724526626, 'f1': 0.3076923076923077, 'npred': 9, 'ngt': 4, 'cnt_err': 5, 'sec': 6.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13164.80it/s]
+stitch_d17_test Emb4_t301 {'dice': 0.727576278158194, 'f1': 0.375, 'npred': 10, 'ngt': 6, 'cnt_err': 4, 'sec': 7.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13291.62it/s]
+stitch_d17_test Emb4_t351 {'dice': 0.81211266560285, 'f1': 0.4, 'npred': 15, 'ngt': 10, 'cnt_err': 5, 'sec': 6.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13436.39it/s]
+stitch_d17_test Emb4_t401 {'dice': 0.8185370448152532, 'f1': 0.625, 'npred': 30, 'ngt': 18, 'cnt_err': 12, 'sec': 7.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 8830.49it/s]
+stitch_d17_test Emb4_t451 {'dice': 0.7920045509810264, 'f1': 0.36363636363636365, 'npred': 37, 'ngt': 29, 'cnt_err': 8, 'sec': 7.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11158.63it/s]
+stitch_d17_test Emb4_t501 {'dice': 0.7718586789554531, 'f1': 0.3564356435643564, 'npred': 58, 'ngt': 43, 'cnt_err': 15, 'sec': 7.0}
+JOB stitch_d24
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12316.63it/s]
+stitch_d24_test Emb1_t001 {'dice': 0.8424425524123409, 'f1': 0.5714285714285714, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 4.7}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15957.63it/s]
+stitch_d24_test Emb1_t051 {'dice': 0.4882331549690893, 'f1': 0.0, 'npred': 12, 'ngt': 2, 'cnt_err': 10, 'sec': 4.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14768.68it/s]
+stitch_d24_test Emb1_t101 {'dice': 0.7553480475382003, 'f1': 0.5, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 3.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11692.42it/s]
+stitch_d24_test Emb1_t151 {'dice': 0.6594985020724751, 'f1': 0.5, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 4.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14610.23it/s]
+stitch_d24_test Emb1_t201 {'dice': 0.5522897336126908, 'f1': 0.16666666666666666, 'npred': 8, 'ngt': 4, 'cnt_err': 4, 'sec': 4.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9438.98it/s]
+stitch_d24_test Emb1_t251 {'dice': 0.8509522560961076, 'f1': 0.6666666666666666, 'npred': 8, 'ngt': 4, 'cnt_err': 4, 'sec': 5.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10252.01it/s]
+stitch_d24_test Emb1_t301 {'dice': 0.8232539697524687, 'f1': 0.6666666666666666, 'npred': 13, 'ngt': 8, 'cnt_err': 5, 'sec': 4.6}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11312.72it/s]
+stitch_d24_test Emb1_t351 {'dice': 0.6861853974924064, 'f1': 0.6206896551724138, 'npred': 17, 'ngt': 12, 'cnt_err': 5, 'sec': 4.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10789.48it/s]
+stitch_d24_test Emb1_t401 {'dice': 0.8507862470270395, 'f1': 0.8648648648648649, 'npred': 20, 'ngt': 17, 'cnt_err': 3, 'sec': 4.8}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11215.92it/s]
+stitch_d24_test Emb1_t451 {'dice': 0.7137253803266747, 'f1': 0.41509433962264153, 'npred': 25, 'ngt': 28, 'cnt_err': -3, 'sec': 4.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11503.85it/s]
+stitch_d24_test Emb1_t501 {'dice': 0.6988252878395105, 'f1': 0.2972972972972973, 'npred': 41, 'ngt': 33, 'cnt_err': 8, 'sec': 4.2}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12488.25it/s]
+stitch_d24_test Emb2_t001 {'dice': 0.7888538218766838, 'f1': 0.25, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 5.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11237.55it/s]
+stitch_d24_test Emb2_t051 {'dice': 0.41063047780605033, 'f1': 0.0, 'npred': 13, 'ngt': 2, 'cnt_err': 11, 'sec': 5.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12549.53it/s]
+stitch_d24_test Emb2_t101 {'dice': 0.6245665589186012, 'f1': 0.26666666666666666, 'npred': 13, 'ngt': 2, 'cnt_err': 11, 'sec': 5.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12593.24it/s]
+stitch_d24_test Emb2_t151 {'dice': 0.717914353181441, 'f1': 0.4444444444444444, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 5.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13683.62it/s]
+stitch_d24_test Emb2_t201 {'dice': 0.7813635702863788, 'f1': 0.7272727272727273, 'npred': 7, 'ngt': 4, 'cnt_err': 3, 'sec': 4.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15348.01it/s]
+stitch_d24_test Emb2_t251 {'dice': 0.6082889356957006, 'f1': 0.10526315789473684, 'npred': 13, 'ngt': 6, 'cnt_err': 7, 'sec': 4.6}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14116.53it/s]
+stitch_d24_test Emb2_t301 {'dice': 0.8053240496536203, 'f1': 0.5714285714285714, 'npred': 13, 'ngt': 8, 'cnt_err': 5, 'sec': 4.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11169.92it/s]
+stitch_d24_test Emb2_t351 {'dice': 0.8554549254563188, 'f1': 0.41379310344827586, 'npred': 13, 'ngt': 16, 'cnt_err': -3, 'sec': 5.2}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12125.77it/s]
+stitch_d24_test Emb2_t401 {'dice': 0.7335803677550164, 'f1': 0.4, 'npred': 26, 'ngt': 24, 'cnt_err': 2, 'sec': 5.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10380.40it/s]
+stitch_d24_test Emb2_t451 {'dice': 0.813777178355403, 'f1': 0.46153846153846156, 'npred': 37, 'ngt': 28, 'cnt_err': 9, 'sec': 4.7}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13626.72it/s]
+stitch_d24_test Emb2_t501 {'dice': 0.6271785178908948, 'f1': 0.14492753623188406, 'npred': 39, 'ngt': 30, 'cnt_err': 9, 'sec': 4.9}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14281.89it/s]
+stitch_d24_test Emb3_t001 {'dice': 0.7068300334930259, 'f1': 0.2, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 4.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11710.05it/s]
+stitch_d24_test Emb3_t051 {'dice': 0.68951087967268, 'f1': 0.4, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 5.7}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11699.59it/s]
+stitch_d24_test Emb3_t101 {'dice': 0.6470165955829568, 'f1': 0.2857142857142857, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 5.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10195.69it/s]
+stitch_d24_test Emb3_t151 {'dice': 0.7257870060281313, 'f1': 0.4444444444444444, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 5.3}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13081.85it/s]
+stitch_d24_test Emb3_t201 {'dice': 0.7280018508521632, 'f1': 0.4444444444444444, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 5.4}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13500.40it/s]
+stitch_d24_test Emb3_t251 {'dice': 0.750163561371071, 'f1': 0.47058823529411764, 'npred': 13, 'ngt': 4, 'cnt_err': 9, 'sec': 4.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10634.11it/s]
+stitch_d24_test Emb3_t301 {'dice': 0.6248892563935975, 'f1': 0.25, 'npred': 12, 'ngt': 4, 'cnt_err': 8, 'sec': 5.2}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12276.97it/s]
+stitch_d24_test Emb3_t351 {'dice': 0.779560396428221, 'f1': 0.46153846153846156, 'npred': 18, 'ngt': 8, 'cnt_err': 10, 'sec': 4.9}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13711.36it/s]
+stitch_d24_test Emb3_t401 {'dice': 0.8135170823336867, 'f1': 0.5294117647058824, 'npred': 24, 'ngt': 10, 'cnt_err': 14, 'sec': 5.0}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12947.78it/s]
+stitch_d24_test Emb3_t451 {'dice': 0.8095559009201062, 'f1': 0.4864864864864865, 'npred': 21, 'ngt': 16, 'cnt_err': 5, 'sec': 5.8}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10961.49it/s]
+stitch_d24_test Emb3_t501 {'dice': 0.748745399799264, 'f1': 0.32142857142857145, 'npred': 28, 'ngt': 28, 'cnt_err': 0, 'sec': 5.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13893.94it/s]
+stitch_d24_test Emb4_t001 {'dice': 0.8145584118096207, 'f1': 0.4, 'npred': 3, 'ngt': 2, 'cnt_err': 1, 'sec': 4.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13041.18it/s]
+stitch_d24_test Emb4_t051 {'dice': 0.22998336897125207, 'f1': 0.0, 'npred': 8, 'ngt': 1, 'cnt_err': 7, 'sec': 4.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14460.13it/s]
+stitch_d24_test Emb4_t101 {'dice': 0.6965061603475984, 'f1': 0.6666666666666666, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 4.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12916.68it/s]
+stitch_d24_test Emb4_t151 {'dice': 0.6362694300518135, 'f1': 0.3333333333333333, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 4.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14654.13it/s]
+stitch_d24_test Emb4_t201 {'dice': 0.48672726614275885, 'f1': 0.15384615384615385, 'npred': 11, 'ngt': 2, 'cnt_err': 9, 'sec': 4.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10387.08it/s]
+stitch_d24_test Emb4_t251 {'dice': 0.7838335026495703, 'f1': 0.4, 'npred': 11, 'ngt': 4, 'cnt_err': 7, 'sec': 4.9}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13602.85it/s]
+stitch_d24_test Emb4_t301 {'dice': 0.7769148985346461, 'f1': 0.4, 'npred': 9, 'ngt': 6, 'cnt_err': 3, 'sec': 4.3}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10453.88it/s]
+stitch_d24_test Emb4_t351 {'dice': 0.8716706171538934, 'f1': 0.6, 'npred': 10, 'ngt': 10, 'cnt_err': 0, 'sec': 4.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10671.99it/s]
+stitch_d24_test Emb4_t401 {'dice': 0.8484595556646618, 'f1': 0.5957446808510638, 'npred': 29, 'ngt': 18, 'cnt_err': 11, 'sec': 5.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13133.47it/s]
+stitch_d24_test Emb4_t451 {'dice': 0.8047225859512808, 'f1': 0.25925925925925924, 'npred': 25, 'ngt': 29, 'cnt_err': -4, 'sec': 5.1}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12729.30it/s]
+stitch_d24_test Emb4_t501 {'dice': 0.7597557738253252, 'f1': 0.297029702970297, 'npred': 58, 'ngt': 43, 'cnt_err': 15, 'sec': 5.8}
+JOB noise
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15891.13it/s]
+noise_test Emb1_t001 {'dice': 0.8480523661337054, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 7.3}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15543.67it/s]
+noise_test Emb1_t051 {'dice': 0.7365273115654563, 'f1': 0.2857142857142857, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 6.3}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15327.82it/s]
+noise_test Emb1_t101 {'dice': 0.8274365993492072, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 6.9}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14020.27it/s]
+noise_test Emb1_t151 {'dice': 0.8149284253578732, 'f1': 0.8, 'npred': 3, 'ngt': 2, 'cnt_err': 1, 'sec': 6.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14080.52it/s]
+noise_test Emb1_t201 {'dice': 0.5662516948107975, 'f1': 0.0, 'npred': 8, 'ngt': 4, 'cnt_err': 4, 'sec': 6.1}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14568.61it/s]
+noise_test Emb1_t251 {'dice': 0.8252936065252123, 'f1': 0.8, 'npred': 6, 'ngt': 4, 'cnt_err': 2, 'sec': 7.2}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11428.00it/s]
+noise_test Emb1_t301 {'dice': 0.8393949991257212, 'f1': 0.5555555555555556, 'npred': 10, 'ngt': 8, 'cnt_err': 2, 'sec': 6.3}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14194.88it/s]
+noise_test Emb1_t351 {'dice': 0.7303452629534308, 'f1': 0.5333333333333333, 'npred': 18, 'ngt': 12, 'cnt_err': 6, 'sec': 6.8}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13673.81it/s]
+noise_test Emb1_t401 {'dice': 0.822027449764676, 'f1': 0.918918918918919, 'npred': 20, 'ngt': 17, 'cnt_err': 3, 'sec': 6.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12158.11it/s]
+noise_test Emb1_t451 {'dice': 0.6944678292242934, 'f1': 0.3611111111111111, 'npred': 44, 'ngt': 28, 'cnt_err': 16, 'sec': 6.3}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10624.41it/s]
+noise_test Emb1_t501 {'dice': 0.6760404654575951, 'f1': 0.2619047619047619, 'npred': 51, 'ngt': 33, 'cnt_err': 18, 'sec': 7.2}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 17090.31it/s]
+noise_test Emb2_t001 {'dice': 0.7296963946869071, 'f1': 0.2857142857142857, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 8.0}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13457.08it/s]
+noise_test Emb2_t051 {'dice': 0.6004305348567643, 'f1': 0.0, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 8.0}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 16719.70it/s]
+noise_test Emb2_t101 {'dice': 0.8478012694643591, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 7.6}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12877.81it/s]
+noise_test Emb2_t151 {'dice': 0.8347169148328721, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 6.7}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11367.29it/s]
+noise_test Emb2_t201 {'dice': 0.8209734964322121, 'f1': 0.8888888888888888, 'npred': 5, 'ngt': 4, 'cnt_err': 1, 'sec': 7.8}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12544.28it/s]
+noise_test Emb2_t251 {'dice': 0.6938874627072782, 'f1': 0.25, 'npred': 10, 'ngt': 6, 'cnt_err': 4, 'sec': 8.5}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12218.32it/s]
+noise_test Emb2_t301 {'dice': 0.8425541220205555, 'f1': 0.6666666666666666, 'npred': 10, 'ngt': 8, 'cnt_err': 2, 'sec': 8.1}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11551.37it/s]
+noise_test Emb2_t351 {'dice': 0.8190805414660938, 'f1': 0.6666666666666666, 'npred': 17, 'ngt': 16, 'cnt_err': 1, 'sec': 8.0}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10595.96it/s]
+noise_test Emb2_t401 {'dice': 0.7081160541586073, 'f1': 0.5, 'npred': 32, 'ngt': 24, 'cnt_err': 8, 'sec': 9.2}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 7886.11it/s]
+noise_test Emb2_t451 {'dice': 0.7750187021887593, 'f1': 0.5846153846153846, 'npred': 37, 'ngt': 28, 'cnt_err': 9, 'sec': 7.7}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12850.20it/s]
+noise_test Emb2_t501 {'dice': 0.5953204476093591, 'f1': 0.09302325581395349, 'npred': 56, 'ngt': 30, 'cnt_err': 26, 'sec': 7.9}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10330.80it/s]
+noise_test Emb3_t001 {'dice': 0.6006179405358861, 'f1': 0.0, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 8.0}
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12771.16it/s]
+noise_test Emb3_t051 {'dice': 0.7966408118038141, 'f1': 0.6666666666666666, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 7.8}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12281.28it/s]
+noise_test Emb3_t101 {'dice': 0.7100670397251926, 'f1': 0.2857142857142857, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 7.6}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11863.06it/s]
+noise_test Emb3_t151 {'dice': 0.7669649308064247, 'f1': 0.6666666666666666, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 7.8}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14890.32it/s]
+noise_test Emb3_t201 {'dice': 0.7713725490196078, 'f1': 0.6666666666666666, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 7.6}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14492.10it/s]
+noise_test Emb3_t251 {'dice': 0.7509390457064227, 'f1': 0.5454545454545454, 'npred': 7, 'ngt': 4, 'cnt_err': 3, 'sec': 7.0}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14011.84it/s]
+noise_test Emb3_t301 {'dice': 0.7243773859298309, 'f1': 0.26666666666666666, 'npred': 11, 'ngt': 4, 'cnt_err': 7, 'sec': 7.7}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12578.89it/s]
+noise_test Emb3_t351 {'dice': 0.8032128514056225, 'f1': 0.6, 'npred': 12, 'ngt': 8, 'cnt_err': 4, 'sec': 7.6}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10992.51it/s]
+noise_test Emb3_t401 {'dice': 0.8299304614427584, 'f1': 0.6923076923076923, 'npred': 16, 'ngt': 10, 'cnt_err': 6, 'sec': 8.1}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9493.24it/s]
+noise_test Emb3_t451 {'dice': 0.806660870728282, 'f1': 0.7567567567567568, 'npred': 21, 'ngt': 16, 'cnt_err': 5, 'sec': 8.2}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12179.29it/s]
+noise_test Emb3_t501 {'dice': 0.7189465658555182, 'f1': 0.4918032786885246, 'npred': 33, 'ngt': 28, 'cnt_err': 5, 'sec': 8.3}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12896.82it/s]
+noise_test Emb4_t001 {'dice': 0.7439855536785693, 'f1': 0.0, 'npred': 1, 'ngt': 2, 'cnt_err': -1, 'sec': 6.5}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 28878.44it/s]
+noise_test Emb4_t051 {'dice': 0.004794072782741338, 'f1': 0.0, 'npred': 1, 'ngt': 1, 'cnt_err': 0, 'sec': 6.7}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10396.35it/s]
+noise_test Emb4_t101 {'dice': 0.7865301478953356, 'f1': 0.8, 'npred': 3, 'ngt': 2, 'cnt_err': 1, 'sec': 6.3}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12733.16it/s]
+noise_test Emb4_t151 {'dice': 0.8205791798670296, 'f1': 1.0, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 7.4}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12487.51it/s]
+noise_test Emb4_t201 {'dice': 0.5267717029690541, 'f1': 0.5, 'npred': 2, 'ngt': 2, 'cnt_err': 0, 'sec': 7.0}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13986.61it/s]
+noise_test Emb4_t251 {'dice': 0.7772789251388473, 'f1': 0.6, 'npred': 6, 'ngt': 4, 'cnt_err': 2, 'sec': 6.7}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15441.81it/s]
+noise_test Emb4_t301 {'dice': 0.7952639368524914, 'f1': 0.7692307692307693, 'npred': 7, 'ngt': 6, 'cnt_err': 1, 'sec': 6.5}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13728.41it/s]
+noise_test Emb4_t351 {'dice': 0.8056821795823174, 'f1': 0.45454545454545453, 'npred': 12, 'ngt': 10, 'cnt_err': 2, 'sec': 7.4}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10317.58it/s]
+noise_test Emb4_t401 {'dice': 0.8082646304533666, 'f1': 0.75, 'npred': 22, 'ngt': 18, 'cnt_err': 4, 'sec': 7.4}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10632.49it/s]
+noise_test Emb4_t451 {'dice': 0.7568984199783283, 'f1': 0.5352112676056338, 'npred': 42, 'ngt': 29, 'cnt_err': 13, 'sec': 7.8}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11257.46it/s]
+noise_test Emb4_t501 {'dice': 0.719660378682447, 'f1': 0.34782608695652173, 'npred': 49, 'ngt': 43, 'cnt_err': 6, 'sec': 7.0}
+JOB zsub
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 12023.58it/s]
+zsub_test Emb1_t001 {'dice': 0.7654594976293756, 'f1': 0.4444444444444444, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 3.9}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11760.61it/s]
+zsub_test Emb1_t051 {'dice': 0.5761232349165597, 'f1': 0.0, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 3.8}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11505.11it/s]
+zsub_test Emb1_t101 {'dice': 0.841388834089564, 'f1': 0.5714285714285714, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 4.1}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 13369.58it/s]
+zsub_test Emb1_t151 {'dice': 0.7574548907882241, 'f1': 0.5714285714285714, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 3.9}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10644.36it/s]
+zsub_test Emb1_t201 {'dice': 0.5262044653349001, 'f1': 0.0, 'npred': 9, 'ngt': 4, 'cnt_err': 5, 'sec': 3.8}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11145.58it/s]
+zsub_test Emb1_t251 {'dice': 0.7737882425047244, 'f1': 0.6666666666666666, 'npred': 5, 'ngt': 4, 'cnt_err': 1, 'sec': 4.2}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10523.65it/s]
+zsub_test Emb1_t301 {'dice': 0.7826987231105487, 'f1': 0.5333333333333333, 'npred': 7, 'ngt': 8, 'cnt_err': -1, 'sec': 4.1}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10041.91it/s]
+zsub_test Emb1_t351 {'dice': 0.6839729119638827, 'f1': 0.5161290322580645, 'npred': 19, 'ngt': 12, 'cnt_err': 7, 'sec': 4.2}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10457.52it/s]
+zsub_test Emb1_t401 {'dice': 0.8455320185049915, 'f1': 0.6829268292682927, 'npred': 24, 'ngt': 17, 'cnt_err': 7, 'sec': 3.8}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11350.68it/s]
+zsub_test Emb1_t451 {'dice': 0.7489878542510121, 'f1': 0.37681159420289856, 'npred': 41, 'ngt': 28, 'cnt_err': 13, 'sec': 3.8}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10590.61it/s]
+zsub_test Emb1_t501 {'dice': 0.7419978315184085, 'f1': 0.43902439024390244, 'npred': 49, 'ngt': 33, 'cnt_err': 16, 'sec': 3.6}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11757.97it/s]
+zsub_test Emb2_t001 {'dice': 0.7215635420526121, 'f1': 0.3333333333333333, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 4.0}
+WARNING: no mask pixels found
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 14850.25it/s]
+zsub_test Emb2_t051 {'dice': 0.4908424908424908, 'f1': 0.0, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 4.3}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 14583.81it/s]
+zsub_test Emb2_t101 {'dice': 0.7949865711727843, 'f1': 0.6666666666666666, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 3.9}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10260.04it/s]
+zsub_test Emb2_t151 {'dice': 0.8381276344006507, 'f1': 0.8, 'npred': 3, 'ngt': 2, 'cnt_err': 1, 'sec': 4.1}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11413.69it/s]
+zsub_test Emb2_t201 {'dice': 0.763705672869539, 'f1': 0.7272727272727273, 'npred': 7, 'ngt': 4, 'cnt_err': 3, 'sec': 4.3}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11036.48it/s]
+zsub_test Emb2_t251 {'dice': 0.5960830860534124, 'f1': 0.11764705882352941, 'npred': 11, 'ngt': 6, 'cnt_err': 5, 'sec': 4.8}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 12688.48it/s]
+zsub_test Emb2_t301 {'dice': 0.7963586574399586, 'f1': 0.5454545454545454, 'npred': 14, 'ngt': 8, 'cnt_err': 6, 'sec': 4.0}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 2537.82it/s]
+zsub_test Emb2_t351 {'dice': 0.8393764129062564, 'f1': 0.7272727272727273, 'npred': 17, 'ngt': 16, 'cnt_err': 1, 'sec': 4.6}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 9339.77it/s]
+zsub_test Emb2_t401 {'dice': 0.7329224157430445, 'f1': 0.3880597014925373, 'npred': 43, 'ngt': 24, 'cnt_err': 19, 'sec': 4.5}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 12358.00it/s]
+zsub_test Emb2_t451 {'dice': 0.8157256593489131, 'f1': 0.6461538461538462, 'npred': 37, 'ngt': 28, 'cnt_err': 9, 'sec': 4.3}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10152.75it/s]
+zsub_test Emb2_t501 {'dice': 0.6273669734475827, 'f1': 0.17647058823529413, 'npred': 38, 'ngt': 30, 'cnt_err': 8, 'sec': 3.8}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 9696.47it/s]
+zsub_test Emb3_t001 {'dice': 0.5304227578032398, 'f1': 0.0, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 4.3}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 12639.54it/s]
+zsub_test Emb3_t051 {'dice': 0.7534087305781629, 'f1': 0.5, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 3.8}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11484.95it/s]
+zsub_test Emb3_t101 {'dice': 0.5187562244107558, 'f1': 0.0, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 3.6}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 13886.58it/s]
+zsub_test Emb3_t151 {'dice': 0.7153220488019345, 'f1': 0.3333333333333333, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 3.9}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11120.76it/s]
+zsub_test Emb3_t201 {'dice': 0.6862933519699485, 'f1': 0.25, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 4.5}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 13355.95it/s]
+zsub_test Emb3_t251 {'dice': 0.6499156197262329, 'f1': 0.3333333333333333, 'npred': 8, 'ngt': 4, 'cnt_err': 4, 'sec': 4.2}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 12040.14it/s]
+zsub_test Emb3_t301 {'dice': 0.6341334740174096, 'f1': 0.26666666666666666, 'npred': 11, 'ngt': 4, 'cnt_err': 7, 'sec': 4.2}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10605.60it/s]
+zsub_test Emb3_t351 {'dice': 0.7216522557233099, 'f1': 0.5, 'npred': 16, 'ngt': 8, 'cnt_err': 8, 'sec': 4.1}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 9638.53it/s]
+zsub_test Emb3_t401 {'dice': 0.8077475449287739, 'f1': 0.75, 'npred': 14, 'ngt': 10, 'cnt_err': 4, 'sec': 4.2}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11299.31it/s]
+zsub_test Emb3_t451 {'dice': 0.8126877540201449, 'f1': 0.8484848484848485, 'npred': 17, 'ngt': 16, 'cnt_err': 1, 'sec': 4.3}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10423.22it/s]
+zsub_test Emb3_t501 {'dice': 0.7604682313202492, 'f1': 0.6666666666666666, 'npred': 32, 'ngt': 28, 'cnt_err': 4, 'sec': 3.9}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 12481.56it/s]
+zsub_test Emb4_t001 {'dice': 0.6794131794131794, 'f1': 0.4, 'npred': 3, 'ngt': 2, 'cnt_err': 1, 'sec': 3.4}
+WARNING: no mask pixels found
+WARNING: no mask pixels found
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 24183.03it/s]
+zsub_test Emb4_t051 {'dice': 0.0, 'f1': 0.0, 'npred': 0, 'ngt': 1, 'cnt_err': -1, 'sec': 3.9}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 13345.76it/s]
+zsub_test Emb4_t101 {'dice': 0.7897172968738874, 'f1': 0.6666666666666666, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 3.6}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10863.82it/s]
+zsub_test Emb4_t151 {'dice': 0.73903828321632, 'f1': 0.6666666666666666, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 4.0}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11789.70it/s]
+zsub_test Emb4_t201 {'dice': 0.4857792946530148, 'f1': 0.3333333333333333, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 3.9}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 12654.79it/s]
+zsub_test Emb4_t251 {'dice': 0.7346232839693007, 'f1': 0.36363636363636365, 'npred': 7, 'ngt': 4, 'cnt_err': 3, 'sec': 3.4}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 14537.31it/s]
+zsub_test Emb4_t301 {'dice': 0.7078887005086267, 'f1': 0.42857142857142855, 'npred': 8, 'ngt': 6, 'cnt_err': 2, 'sec': 3.7}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 12095.70it/s]
+zsub_test Emb4_t351 {'dice': 0.8123839009287925, 'f1': 0.7619047619047619, 'npred': 11, 'ngt': 10, 'cnt_err': 1, 'sec': 3.6}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 9852.26it/s]
+zsub_test Emb4_t401 {'dice': 0.813079575935624, 'f1': 0.7142857142857143, 'npred': 24, 'ngt': 18, 'cnt_err': 6, 'sec': 3.6}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 10644.36it/s]
+zsub_test Emb4_t451 {'dice': 0.7920853851467279, 'f1': 0.4, 'npred': 31, 'ngt': 29, 'cnt_err': 2, 'sec': 3.8}
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 11112.51it/s]
+zsub_test Emb4_t501 {'dice': 0.7748367276352465, 'f1': 0.3695652173913043, 'npred': 49, 'ngt': 43, 'cnt_err': 6, 'sec': 3.3}
+JOB stitch_d17_traindev
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13523.03it/s]
+stitch_d17_train Emb01_t001 {'dice': 0.18762088974854932, 'f1': 0.0, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 8.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12929.42it/s]
+stitch_d17_train Emb01_t051 {'dice': 0.3607937462417318, 'f1': 0.0, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 7.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10514.68it/s]
+stitch_d17_train Emb01_t101 {'dice': 0.6673030630032373, 'f1': 0.2, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 7.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12231.14it/s]
+stitch_d17_train Emb01_t151 {'dice': 0.6875, 'f1': 0.3333333333333333, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 7.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12495.69it/s]
+stitch_d17_train Emb01_t201 {'dice': 0.6762173038229377, 'f1': 0.4, 'npred': 11, 'ngt': 4, 'cnt_err': 7, 'sec': 8.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11207.52it/s]
+stitch_d17_train Emb01_t251 {'dice': 0.5989179214025081, 'f1': 0.25, 'npred': 11, 'ngt': 5, 'cnt_err': 6, 'sec': 7.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13196.27it/s]
+stitch_d17_train Emb01_t301 {'dice': 0.6772604199032358, 'f1': 0.23529411764705882, 'npred': 9, 'ngt': 8, 'cnt_err': 1, 'sec': 7.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9453.87it/s]
+stitch_d17_train Emb01_t351 {'dice': 0.7367994028494467, 'f1': 0.46511627906976744, 'npred': 27, 'ngt': 16, 'cnt_err': 11, 'sec': 7.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9265.49it/s]
+stitch_d17_train Emb01_t401 {'dice': 0.7509693234181467, 'f1': 0.509090909090909, 'npred': 30, 'ngt': 25, 'cnt_err': 5, 'sec': 8.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 8405.08it/s]
+stitch_d17_train Emb01_t451 {'dice': 0.6634409997993792, 'f1': 0.2558139534883721, 'npred': 52, 'ngt': 34, 'cnt_err': 18, 'sec': 8.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9291.36it/s]
+stitch_d17_train Emb01_t501 {'dice': 0.5198022058153313, 'f1': 0.05970149253731343, 'npred': 84, 'ngt': 50, 'cnt_err': 34, 'sec': 8.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15017.20it/s]
+stitch_d17_train Emb02_t001 {'dice': 0.2664255575647981, 'f1': 0.0, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 8.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14022.14it/s]
+stitch_d17_train Emb02_t051 {'dice': 0.03221757322175732, 'f1': 0.0, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 8.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12815.64it/s]
+stitch_d17_train Emb02_t101 {'dice': 0.687743950039032, 'f1': 0.3076923076923077, 'npred': 11, 'ngt': 2, 'cnt_err': 9, 'sec': 8.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14444.19it/s]
+stitch_d17_train Emb02_t151 {'dice': 0.6920417743168007, 'f1': 0.5714285714285714, 'npred': 5, 'ngt': 2, 'cnt_err': 3, 'sec': 7.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10923.80it/s]
+stitch_d17_train Emb02_t201 {'dice': 0.5477718521196782, 'f1': 0.15384615384615385, 'npred': 9, 'ngt': 4, 'cnt_err': 5, 'sec': 7.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 13547.49it/s]
+stitch_d17_train Emb02_t251 {'dice': 0.6597712792898461, 'f1': 0.2857142857142857, 'npred': 10, 'ngt': 4, 'cnt_err': 6, 'sec': 8.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11970.73it/s]
+stitch_d17_train Emb02_t301 {'dice': 0.7153347888060914, 'f1': 0.38461538461538464, 'npred': 18, 'ngt': 8, 'cnt_err': 10, 'sec': 8.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11852.33it/s]
+stitch_d17_train Emb02_t351 {'dice': 0.7487084815912103, 'f1': 0.43902439024390244, 'npred': 25, 'ngt': 16, 'cnt_err': 9, 'sec': 8.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9362.70it/s]
+stitch_d17_train Emb02_t401 {'dice': 0.5596434693177923, 'f1': 0.09375, 'npred': 42, 'ngt': 22, 'cnt_err': 20, 'sec': 8.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10597.56it/s]
+stitch_d17_train Emb02_t451 {'dice': 0.5442287542050406, 'f1': 0.08602150537634409, 'npred': 61, 'ngt': 32, 'cnt_err': 29, 'sec': 8.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10513.09it/s]
+stitch_d17_train Emb02_t501 {'dice': 0.3886668716056973, 'f1': 0.0, 'npred': 67, 'ngt': 49, 'cnt_err': 18, 'sec': 7.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 14629.59it/s]
+stitch_d17_train Emb03_t001 {'dice': 0.44654061915645127, 'f1': 0.25, 'npred': 5, 'ngt': 3, 'cnt_err': 2, 'sec': 7.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 15704.30it/s]
+stitch_d17_train Emb03_t051 {'dice': 0.0, 'f1': 0.0, 'npred': 3, 'ngt': 1, 'cnt_err': 2, 'sec': 7.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10620.10it/s]
+stitch_d17_train Emb03_t101 {'dice': 0.6967272202998847, 'f1': 0.4444444444444444, 'npred': 7, 'ngt': 2, 'cnt_err': 5, 'sec': 8.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11446.71it/s]
+stitch_d17_train Emb03_t151 {'dice': 0.7049028040598658, 'f1': 0.4, 'npred': 8, 'ngt': 2, 'cnt_err': 6, 'sec': 8.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10892.60it/s]
+stitch_d17_train Emb03_t201 {'dice': 0.6902284263959391, 'f1': 0.3076923076923077, 'npred': 10, 'ngt': 3, 'cnt_err': 7, 'sec': 8.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11680.04it/s]
+stitch_d17_train Emb03_t251 {'dice': 0.7206607724523034, 'f1': 0.4, 'npred': 11, 'ngt': 4, 'cnt_err': 7, 'sec': 7.4}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11763.25it/s]
+stitch_d17_train Emb03_t301 {'dice': 0.7267102794259344, 'f1': 0.4, 'npred': 13, 'ngt': 7, 'cnt_err': 6, 'sec': 7.6}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11511.43it/s]
+stitch_d17_train Emb03_t351 {'dice': 0.7507855847443932, 'f1': 0.3076923076923077, 'npred': 17, 'ngt': 9, 'cnt_err': 8, 'sec': 8.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 12440.84it/s]
+stitch_d17_train Emb03_t401 {'dice': 0.7096968216078041, 'f1': 0.5142857142857142, 'npred': 22, 'ngt': 13, 'cnt_err': 9, 'sec': 7.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9837.47it/s]
+stitch_d17_train Emb03_t451 {'dice': 0.6541386462195965, 'f1': 0.2916666666666667, 'npred': 31, 'ngt': 17, 'cnt_err': 14, 'sec': 7.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10800.60it/s]
+stitch_d17_train Emb03_t501 {'dice': 0.6363510438310083, 'f1': 0.1724137931034483, 'npred': 38, 'ngt': 20, 'cnt_err': 18, 'sec': 7.5}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11632.75it/s]
+stitch_d17_train Emb04_t001 {'dice': 0.4110209923664122, 'f1': 0.25, 'npred': 6, 'ngt': 2, 'cnt_err': 4, 'sec': 8.9}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 10056.84it/s]
+stitch_d17_train Emb04_t051 {'dice': 0.2013590033975085, 'f1': 0.0, 'npred': 12, 'ngt': 2, 'cnt_err': 10, 'sec': 8.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11028.94it/s]
+stitch_d17_train Emb04_t101 {'dice': 0.6885019347705915, 'f1': 0.36363636363636365, 'npred': 9, 'ngt': 2, 'cnt_err': 7, 'sec': 8.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 11836.28it/s]
+stitch_d17_train Emb04_t151 {'dice': 0.709332295871225, 'f1': 0.3333333333333333, 'npred': 4, 'ngt': 2, 'cnt_err': 2, 'sec': 8.7}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9982.64it/s]
+stitch_d17_train Emb04_t201 {'dice': 0.5346316229888555, 'f1': 0.4, 'npred': 6, 'ngt': 4, 'cnt_err': 2, 'sec': 9.2}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 7302.57it/s]
+stitch_d17_train Emb04_t251 {'dice': 0.5459095980460151, 'f1': 0.0, 'npred': 7, 'ngt': 4, 'cnt_err': 3, 'sec': 9.0}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 8197.12it/s]
+stitch_d17_train Emb04_t301 {'dice': 0.6525188055618873, 'f1': 0.3333333333333333, 'npred': 16, 'ngt': 8, 'cnt_err': 8, 'sec': 8.3}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 7823.15it/s]
+stitch_d17_train Emb04_t351 {'dice': 0.7039817121020847, 'f1': 0.47368421052631576, 'npred': 23, 'ngt': 15, 'cnt_err': 8, 'sec': 9.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 7827.24it/s]
+stitch_d17_train Emb04_t401 {'dice': 0.7054547487907848, 'f1': 0.36, 'npred': 30, 'ngt': 20, 'cnt_err': 10, 'sec': 9.8}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9977.41it/s]
+stitch_d17_train Emb04_t451 {'dice': 0.5842208445928045, 'f1': 0.15730337078651685, 'npred': 57, 'ngt': 32, 'cnt_err': 25, 'sec': 9.1}
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 9418.21it/s]
+stitch_d17_train Emb04_t501 {'dice': 0.3944462199495756, 'f1': 0.013513513513513514, 'npred': 98, 'ngt': 50, 'cnt_err': 48, 'sec': 10.0}
+DONE

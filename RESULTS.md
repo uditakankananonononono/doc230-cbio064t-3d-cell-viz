@@ -1,0 +1,21 @@
+# CBIO064T results (PREREG.md and src/run064t.py committed together at 18c4447 before any scoring; analysis script src/analyze064t.py committed before outcomes were aggregated). Raw per-stack: results/cache/*.json, aggregates results/results064t.json, log results/run064t.log.
+Scope (from PREREG): pretrained Cellpose 2.3.2 'nuclei' vs manual nucleus annotation on BBBC050 mouse-embryo nuclei, 44 test stacks (4 embryos x 11 timepoints, 437 annotated nuclei), CPU. NOT the students' cells, filtering or 3D rendering. Confidence intervals are bootstrap over stacks, which are not independent (4 embryos), so they are optimistic.
+
+## Verdict (D2/D3 gates)
+Agreement NOT reproduced under the preregistered settings. Cellpose 3D (diameter 17): foreground Dice median 0.688 (mean 0.623, 95% CI 0.553-0.685), instance F1@0.5 mean 0.240 (CI 0.166-0.315); gate was median Dice >= 0.80 and mean F1 >= 0.70: FAILED. It over-segments: 14.5 extra objects per stack on average. A non-deep Otsu+watershed baseline gets F1 0.735 and Dice 0.733; Cellpose minus baseline F1 = -0.496 (gate "deep model adds value": FAILED, baseline is clearly better here).
+
+## Other directions
+- D1: 44 stacks, 1-43 annotated nuclei per stack (437 total).
+- D4 diameter (2D+stitch): mean F1 d8 0.098, d12 0.207, d17 0.352, d24 0.397; range 0.299 > 0.10, so diameter-sensitive. F1 rises with diameter and is best at the largest value tested, so the optimum lies outside the preregistered grid; I did not extend the grid after seeing this. The primary result stays at d=17.
+- D5 modes: 3D F1 0.240 vs 2D+stitch 0.352 (diff -0.112, gate fired): in this setup 3D mode was worse, not better.
+- D6 by density (primary): F1 0.047 for <=4 nuclei (n=24 stacks), 0.462 for 5-16 (n=10), 0.479 for >16 (n=10). High-density gate (>=0.50) FAILED. Low-count stacks are worst because each spurious object costs a large share of F1.
+- D7 per embryo F1: Emb1 0.259, Emb2 0.271, Emb3 0.165, Emb4 0.264; sd over the 4 embryos (ddof=1) 0.050. Only 4 embryos: underpowered for any between-embryo claim.
+- D8 cross-device (2D+stitch d17): train-device (IX71) F1 0.255 vs test-device (CV1000) 0.352, diff -0.097; gate (|diff| >= 0.10) not fired, but only by 0.003 - not evidence of device invariance.
+- D9: noise (sd 10% of range) F1 0.542 and every-2nd-slice F1 0.443 vs clean 0.352: F1 went UP under both perturbations (+0.190 and +0.091), so "fragile" gate did not fire; I did not investigate why, a plausible reading is that both reduce over-segmentation, not that the model is robust. Metric control: foreground Dice against z-flipped GT = 0.260 vs 0.623 real (gap >= 0.20, metric non-trivial).
+- D10 (descriptive; not the students' filter): removing predicted objects < 100 voxels raises mean F1 0.240 -> 0.307 and cuts the mean count error 14.5 -> 6.2. Size filtering helps, but this is post-hoc cleanup of an over-segmenting model and still sits below the Otsu baseline.
+
+## Net claim
+On public mouse-embryo nuclei, pretrained Cellpose 2.3.2 with the default diameter did not match manual annotation in 3D and was beaten by simple thresholding; the preregistered agreement gate failed. This says nothing about the students' software on their own images and cell types, their filtering step, or their 3D rendering; their data and code are not available. Diameter tuning (not preregistered) might change the picture; that was not tested.
+
+## Limits and disclosures
+One dataset (nuclei, one organism); ground truth is manual nucleus annotation; F1 uses greedy one-to-one 3D IoU>=0.5 matching; 4 embryos. Compute disclosures: the run was interrupted once (disk full from unrelated test temp files; process killed) and resumed from the per-stack cache, which is deterministic so results are unaffected; a few stacks show long wall times (382 s, 881 s) because of CPU contention. Before the prereg commit I ran the Otsu baseline code path once on one test stack (disclosed in PREREG.md).
